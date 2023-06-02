@@ -88,12 +88,23 @@
 
 .right-col input::placeholder {
     padding: 10px;
-}
-#message{
-color: white;
-margin-top: 10px;
-display: block;
 
+}
+
+.right-col input {
+    color: white;
+
+}
+
+#message {
+    color: white;
+    margin-top: 10px;
+    display: block;
+
+}
+
+.label-contact {
+    color: rgba(128, 128, 128, 0.281);
 }
 
 @media only screen and (max-width: 600px) {
