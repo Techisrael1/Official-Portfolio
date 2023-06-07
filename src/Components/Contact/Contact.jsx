@@ -85,13 +85,12 @@ const Contact = () => {
 						id=""
 						cols="30"
 						rows="10"
-						placeholder="Your Message"
+						placeholder="Kindly leave a message"
 						required
 					></textarea>
 					<button type="submit">Submit</button>
 				</form>
-				<label className="label-contact">Kindly leave a message</label>
-				<span id="message"></span>
+				
 			</div>
 		</div>
 	);

@@ -108,6 +108,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
@@ -115,7 +116,7 @@
     .right-col {
         width: 100vw;
         margin-left: 60px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
 

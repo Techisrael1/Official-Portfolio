@@ -76,7 +76,7 @@ const Navbar = () => {
 				<div class="container">
 					<div class="row">
 						<div class="about-col-1">
-							<img src="./images/me.png" alt="" />
+							{/* <img src="./images/me.png" alt="" />	 */}
 						</div>
 						<div class="about-col-2">
 							<h1 class="sub-title">About Me</h1>

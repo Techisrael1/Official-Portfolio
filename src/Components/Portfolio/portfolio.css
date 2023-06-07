@@ -84,3 +84,9 @@
 .btn:hover {
     background: #ff004f;
 }
+
+@media only screen and (max-width: 600px) {
+    #portfolio {
+        margin-bottom: -60px;
+    }
+}

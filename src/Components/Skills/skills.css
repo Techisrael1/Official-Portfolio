@@ -3,12 +3,11 @@
     justify-content: center;
     align-items: center;
     padding: 0 5rem 0 5rem;
-
+    gap: 20px;
 }
 
 .skills-card img {
     width: 150px;
-
 }
 
 .skills-card img:hover {
@@ -23,8 +22,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+
     #skills {
         margin-top: 250px;
+
     }
 
     .h1 {
@@ -32,15 +33,21 @@
         margin-bottom: 30px;
     }
 
-    .skills-card {
+    /* .skills-card {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 200px 150px;
         gap: 5px;
 
+    } */
+    .skills-card {
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .skills-card img {
         width: 100px;
+        overflow-x: visible !important;
+
     }
 }
