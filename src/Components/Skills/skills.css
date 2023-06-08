@@ -33,13 +33,7 @@
         margin-bottom: 30px;
     }
 
-    /* .skills-card {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px 150px;
-        gap: 5px;
 
-    } */
     .skills-card {
         flex-wrap: wrap;
         gap: 10px;
