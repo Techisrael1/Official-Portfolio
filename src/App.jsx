@@ -7,11 +7,14 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Skills from "./Components/Skills/Skills";
 import "./app.css";
 const App = () => {
-	// const style = {
-	// 	width: "100vw",
-	// };
 	return (
-		<div style={{ backgroundColor: "#000000", color: "#fff", width:"100vw" }}>
+		<div
+			style={{
+				backgroundColor: "#000000",
+				color: "#fff",
+				width: "100vw",
+			}}
+		>
 			<Navbar />
 			<Skills />
 			<Services />
